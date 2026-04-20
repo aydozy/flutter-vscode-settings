@@ -1,0 +1,83 @@
+{
+  // ============================================================
+  // Flutter/Dart — Productivity Settings
+  // ============================================================
+
+  // -------------------------
+  // Formatting (Dart Formatter)
+  // -------------------------
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+
+  // Use Dart-Code formatter for Dart files
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+
+  // -----------------------------------------
+  // Save Actions (Imports / Quick Fixes)
+  // -----------------------------------------
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.addMissingImports": "always",
+    "source.fixAll": "always" // ← "explicit" değil "always" olmalı
+  },
+
+  // -----------------------------------------
+  // File Cleanliness
+  // -----------------------------------------
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // -----------------------------------------
+  // Dart/Flutter Extension Quality-of-Life
+  // -----------------------------------------
+  "dart.previewFlutterUiGuides": true,
+  "dart.closingLabels": true,
+  "dart.showTodos": true,
+  "dart.enableSdkFormatter": true,
+  "dart.showInspectorNotificationsForWidgetErrors": true,
+  "dart.hotReloadOnSave": "all",
+
+  // -----------------------------------------
+  // Line Length & Visual Guides
+  // -----------------------------------------
+  "dart.lineLength": 100,
+  "editor.wordWrap": "off",
+
+  // -----------------------------------------
+  // Editor Readability (great for widget trees)
+  // -----------------------------------------
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+
+  // -----------------------------------------
+  // JSON / YAML Formatting (Flutter configs)
+  // -----------------------------------------
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true
+  },
+
+  // -----------------------------------------
+  // Window / Debug UI
+  // -----------------------------------------
+  "window.commandCenter": true,
+  "debug.toolBarLocation": "commandCenter",
+
+  // -----------------------------------------
+  // Auto Save
+  // -----------------------------------------
+  "files.autoSave": "afterDelay"
+}
