@@ -25,7 +25,7 @@ Drop these files into your project and get formatting, auto-imports, const fixes
 
 ```yaml
 dev_dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 ```
 
 4. Run `flutter pub get`, then open any Dart file and hit **Cmd+S** (or Ctrl+S).
